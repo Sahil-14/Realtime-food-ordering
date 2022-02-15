@@ -6,6 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 //set template engine
+app.use(express.static('public'))
 app.get("/", (req, res) => {
   res.render("home")
 })
