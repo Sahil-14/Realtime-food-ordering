@@ -323,6 +323,15 @@ section.hero {
   background: #f8f8f8;
 }
 
+.btn-primary {
+  background: #fe5f1e;
+}
+
+.btn-primary:hover {
+  transition: all 0.3s ease-in-out;
+  background: #b23301;
+}
+
 .size {
   background: #f8f8f8;
 }
@@ -341,15 +350,6 @@ section.hero {
 
 .add-to-cart:focus {
   outline: none;
-}
-
-.btn-primary {
-  background: #fe5f1e;
-}
-
-.btn-primary:hover {
-  transition: all 0.3s ease-in-out;
-  background: #b23301;
 }
 
 section.cart {

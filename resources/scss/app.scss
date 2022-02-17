@@ -25,6 +25,13 @@ section.hero {
   background: $secondary;
 }
 
+.btn-primary {
+  background: $primary;
+  &:hover {
+    transition: $smooth;
+    background: $primary-hover;
+  }
+}
 .size {
   background: $secondary;
 }
@@ -38,16 +45,8 @@ section.hero {
     color: $pure;
     transition: $smooth;
   }
-  &:focus{
+  &:focus {
     outline: none;
-  }
-}
-
-.btn-primary {
-  background: $primary;
-  &:hover {
-    transition: $smooth;
-    background: $primary-hover;
   }
 }
 
