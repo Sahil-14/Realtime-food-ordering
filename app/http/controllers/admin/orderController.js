@@ -8,7 +8,7 @@ const orderController = () => {
           if (req.xhr) {
             return res.json(orders)
           }
-
+          console.log(orders)
           return res.render('admin/orders', { orders })
         })
     }
